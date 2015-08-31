@@ -1,1 +1,32 @@
-%h1 This is the welcome placeholder
+#banner
+  .banner_content
+    %h1 Take Notes
+    %p Take notes of whatever you want
+    %button=link_to "sign up", new_user_registration_path
+%hr
+#testimonial
+  .wrapper
+    %p.quote "One of the best note taking apps ever
+    %p.name -kimani
+%hr
+#callouts
+  .callouts_inner
+    .wrapper
+      .callout
+        %h2 Notes
+        %p Creafted beer organic authentic palroid tousled
+      .callout
+        %h2 Another Note
+        %p This is a note about creating this app using rails, eating bananas and drinking beer. This note is awesome
+      .callout
+        %h2 Another Note
+        %p This is a note about creating this app using rails, eating bananas and drinking beer. This note is awesome
+
+#bottom_cta
+  .wrapper
+    %h2 Why sign up
+    %p By signing up, you will be learning how to be an awesome person
+    %button= link_to "Click Me", new_user_registration_path
+
+%footer
+  %p &copy; Kimani
